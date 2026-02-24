@@ -20,7 +20,7 @@ async-timeout==5.0.1 ; python_version < "3.11"
     # via
     #   -r requirements/runtime-deps.in
     #   valkey
-blockbuster==1.5.24
+blockbuster==1.5.26
     # via
     #   -r requirements/lint.in
     #   -r requirements/test.in
@@ -207,9 +207,7 @@ rich==14.0.0
 setuptools-git==1.2
     # via -r requirements/test.in
 six==1.17.0
-    # via
-    #   python-dateutil
-    #   sphinx
+    # via python-dateutil
 slotscheck==0.19.1
     # via -r requirements/lint.in
 sphinx==1.2.3
