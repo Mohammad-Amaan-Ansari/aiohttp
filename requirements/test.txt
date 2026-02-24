@@ -49,6 +49,8 @@ idna==3.6
     # via
     #   trustme
     #   yarl
+importlib-metadata==8.7.1
+    # via pytest-codspeed
 iniconfig==2.1.0
     # via pytest
 isal==1.7.2
@@ -102,7 +104,7 @@ pytest==8.4.1
     #   pytest-cov
     #   pytest-mock
     #   pytest-xdist
-pytest-codspeed==3.2.0
+pytest-codspeed==4.3.0
     # via -r requirements/test.in
 pytest-cov==6.2.1
     # via -r requirements/test.in
@@ -146,6 +148,8 @@ wait-for-it==2.3.0
     # via -r requirements/test.in
 yarl==1.20.1
     # via -r requirements/runtime-deps.in
+zipp==3.23.0
+    # via importlib-metadata
 zlib-ng==0.5.1
     # via -r requirements/test.in
 zstandard==0.23.0 ; platform_python_implementation == "CPython" and python_version < "3.14"
