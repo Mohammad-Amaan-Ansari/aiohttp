@@ -93,9 +93,8 @@ importlib-metadata==8.7.1
     # via
     #   build
     #   pytest-codspeed
+    #   towncrier
 importlib-resources==6.5.2
-    # via towncrier
-incremental==24.7.2
     # via towncrier
 iniconfig==2.1.0
     # via pytest
@@ -237,13 +236,12 @@ tomli==2.2.1
     #   build
     #   cherry-picker
     #   coverage
-    #   incremental
     #   mypy
     #   pip-tools
     #   pytest
     #   slotscheck
     #   towncrier
-towncrier==23.11.0
+towncrier==25.8.0
     # via
     #   -r requirements/doc.in
     #   sphinxcontrib-towncrier
@@ -301,6 +299,4 @@ zstandard==0.23.0 ; implementation_name == "cpython"
 pip==25.1.1
     # via pip-tools
 setuptools==82.0.0
-    # via
-    #   incremental
-    #   pip-tools
+    # via pip-tools
