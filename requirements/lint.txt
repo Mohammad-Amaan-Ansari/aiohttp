@@ -114,13 +114,14 @@ typing-extensions==4.14.0
     #   python-on-whales
     #   rich
     #   typing-inspection
+    #   virtualenv
 typing-inspection==0.4.2
     # via pydantic
 uvloop==0.21.0 ; platform_system != "Windows"
     # via -r requirements/lint.in
 valkey==6.1.0
     # via -r requirements/lint.in
-virtualenv==20.31.2
+virtualenv==20.39.0
     # via pre-commit
 zipp==3.23.0
     # via importlib-metadata
