@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe --output-file=requirements/lint.txt --strip-extras requirements/lint.in
 #
-aiodns==3.5.0
+aiodns==3.6.1
     # via -r requirements/lint.in
 annotated-types==0.7.0
     # via pydantic
@@ -37,6 +37,8 @@ identify==2.6.12
     # via pre-commit
 idna==3.7
     # via trustme
+importlib-metadata==8.7.1
+    # via pytest-codspeed
 iniconfig==2.1.0
     # via pytest
 isal==1.7.2
@@ -120,6 +122,8 @@ valkey==6.1.0
     # via -r requirements/lint.in
 virtualenv==20.31.2
     # via pre-commit
+zipp==3.23.0
+    # via importlib-metadata
 zlib-ng==0.5.1
     # via -r requirements/lint.in
 zstandard==0.23.0 ; implementation_name == "cpython"

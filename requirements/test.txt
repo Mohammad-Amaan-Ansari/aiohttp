@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe --output-file=requirements/test.txt --resolver=backtracking --strip-extras requirements/test.in
 #
-aiodns==3.5.0
+aiodns==3.6.1
     # via -r requirements/runtime-deps.in
 aiohappyeyeballs==2.6.1
     # via -r requirements/runtime-deps.in
@@ -49,6 +49,8 @@ idna==3.6
     # via
     #   trustme
     #   yarl
+importlib-metadata==8.7.1
+    # via pytest-codspeed
 iniconfig==2.1.0
     # via pytest
 isal==1.7.2
@@ -146,6 +148,8 @@ wait-for-it==2.3.0
     # via -r requirements/test.in
 yarl==1.20.1
     # via -r requirements/runtime-deps.in
+zipp==3.23.0
+    # via importlib-metadata
 zlib-ng==0.5.1
     # via -r requirements/test.in
 zstandard==0.23.0 ; platform_python_implementation == "CPython" and python_version < "3.14"
