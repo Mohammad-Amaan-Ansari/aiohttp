@@ -58,7 +58,7 @@ cryptography==46.0.5
     #   trustme
 distlib==0.4.0
     # via virtualenv
-docutils==0.21.2
+docutils==0.22.4
     # via sphinx
 exceptiongroup==1.3.0
     # via pytest
