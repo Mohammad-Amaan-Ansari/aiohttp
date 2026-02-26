@@ -135,5 +135,5 @@ zipp==3.23.0
     # via importlib-metadata
 zlib-ng==1.0.0
     # via -r requirements/lint.in
-zstandard==0.23.0 ; implementation_name == "cpython"
+zstandard==0.25.0 ; implementation_name == "cpython"
     # via -r requirements/lint.in
