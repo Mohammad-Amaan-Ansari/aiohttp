@@ -154,5 +154,5 @@ zipp==3.23.0
     # via importlib-metadata
 zlib-ng==1.0.0
     # via -r requirements/test.in
-zstandard==0.23.0 ; platform_python_implementation == "CPython" and python_version < "3.14"
+zstandard==0.25.0 ; platform_python_implementation == "CPython" and python_version < "3.14"
     # via -r requirements/runtime-deps.in
