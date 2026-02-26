@@ -228,9 +228,7 @@ rich==14.3.3
 setuptools-git==1.2
     # via -r requirements/test.in
 six==1.17.0
-    # via
-    #   python-dateutil
-    #   sphinxcontrib-spelling
+    # via python-dateutil
 slotscheck==0.19.1
     # via -r requirements/lint.in
 snowballstemmer==3.0.1
@@ -252,7 +250,7 @@ sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
-sphinxcontrib-spelling==4.2.1 ; platform_system != "Windows"
+sphinxcontrib-spelling==8.0.0 ; platform_system != "Windows"
     # via -r requirements/doc-spelling.in
 sphinxcontrib-towncrier==0.5.0a0
     # via -r requirements/doc.in
