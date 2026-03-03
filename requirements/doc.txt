@@ -20,7 +20,7 @@ docutils==0.22.4
     # via sphinx
 idna==3.11
     # via requests
-imagesize==1.4.1
+imagesize==1.5.0
     # via sphinx
 importlib-metadata==8.7.1
     # via towncrier
