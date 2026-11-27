@@ -8,7 +8,7 @@ aiohttp-theme==0.1.7
     # via -r requirements/doc.in
 alabaster==0.7.16
     # via sphinx
-babel==2.18.0
+babel==2.19.0
     # via sphinx
 certifi==2026.11.20
     # via requests
